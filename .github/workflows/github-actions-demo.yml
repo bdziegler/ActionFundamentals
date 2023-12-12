@@ -5,7 +5,9 @@ on:
     paths-ignore: [.github/**]
   pull_request:
     branches: [ main ]
+    
   workflow_dispatch:
+  
 jobs:
   # This workflow contains a single job called "build"
   build:
